@@ -3,7 +3,7 @@
     "1": {
       "id": 1,
       "name": "加藤惠",
-      "path": "../myModel/加藤惠live2d/model/katou_01/katou_01.model.json",
+      "path": "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@master/myModel/加藤惠live2d/model/katou_01/katou_01.model.json",
       "message": "加藤惠~",
       "scale": 1.55,
       "x": 0,
@@ -18,7 +18,7 @@
     "2": {
       "id": 2,
       "name": "雷姆",
-      "path": "../myModel/雷姆live2d/model/rem/rem.json",
+      "path": "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@master/myModel/蕾姆live2d/model/rem/rem.json",
       "message": "雷姆~",
       "scale": 1.85,
       "x": -5,
