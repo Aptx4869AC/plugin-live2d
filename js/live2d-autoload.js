@@ -25,7 +25,7 @@ function Live2d() {
     #path;
     #config;
     defaultConfig = {
-      apiPath: "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@4.0/api/",
+      apiPath: "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@4.0/api/", /* 版本号可能需要改 */
       isTools: true,
       tools: ["hitokoto", "switch-model", "switch-texture", "photo", "info", "quit"],
       version: "1.0.1",
