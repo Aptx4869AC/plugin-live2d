@@ -25,7 +25,7 @@ function Live2d() {
     #path;
     #config;
     defaultConfig = {
-      apiPath: "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@4.0/api/", /* 版本号可能需要改 */
+      apiPath: "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@5.0/api/", /* 版本号可能需要改 */
       isTools: true,
       tools: ["hitokoto", "switch-model", "switch-texture", "photo", "info", "quit"],
       version: "1.0.1",
@@ -208,8 +208,8 @@ function Live2d() {
       let modelTexturesId = localStorage.getItem("modelTexturesId");
       if (modelId === null || !!this.#config["isForceUseDefaultConfig"]) {
         // 加载指定模型的指定材质
-        modelId = this.#config["modelId"] || 1; // 模型 ID
-        modelTexturesId = this.#config["modelTexturesId"] || 53; // 材质 ID
+        modelId = this.#config["modelId"] || 2; // 模型 ID
+        modelTexturesId = this.#config["modelTexturesId"] || 1; // 材质 ID
       }
       
       if (this.#config["consoleShowStatu"]) {
