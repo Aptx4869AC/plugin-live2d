@@ -16,8 +16,6 @@ function Live2d() {
   const tools = {};
 
 
-
-
   /**
    * apiPath: "https://live2d.fghrsh.net/api/",  //旧的api版本，人物少
    * cdnPath: "https://api.zsq.im/live2d/",    //人物多，加载慢
@@ -27,7 +25,7 @@ function Live2d() {
     #path;
     #config;
     defaultConfig = {
-      apiPath: "https://live2d.fghrsh.net/api/",
+      apiPath: "https://fastly.jsdelivr.net/gh/Aptx4869AC/plugin-live2d@4.0/api/",
       isTools: true,
       tools: ["hitokoto", "switch-model", "switch-texture", "photo", "info", "quit"],
       version: "1.0.1",
@@ -316,22 +314,6 @@ function Live2d() {
         console.log('Models config loaded successfully:', this.#modelsData);
       } catch (error) {
         console.error('Failed to load models config:', error);
-        // 提供默认配置作为后备
-        this.#modelsData = {
-          models: {
-            "1": {
-              "id": 1,
-              "name": "加藤惠",
-              "path": "../myModel/加藤惠live2d/model/katou_01/katou_01.model.json",
-              "message": "我是加藤惠~",
-              "textures": { "1": { "id": 1, "name": "默认" } }
-            }
-          },
-          message: {
-            noOtherTextures: "我还没有其他衣服呢！",
-            newTexture: "我的新衣服好看嘛？"
-          }
-        };
       }
     }
   
